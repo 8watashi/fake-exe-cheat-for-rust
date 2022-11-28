@@ -1,0 +1,30 @@
+
+#include <iostream>
+#include <string>
+using namespace std;
+
+int main() {
+	string s1 = "d";
+	string s2 = "a";
+	string s3 = "123123123qq";
+
+	cout << "Enter your login. \n";
+	cin >> s1;
+
+	cout << "Enter your password. \n";
+	cin >> s2;
+
+	if ( s2 == s3 ) {
+		cout << "Y.T.D cheat" << endl;
+		cout << "		Login: " + s1 << endl;
+		cout << "   Subscription before: 12.01.2023" << endl;
+		cout << "inject sucefull" << endl;
+		cout << "							C:/Program Files (x86)/Steam/steamapps/common/Rust/Rust.exe" << endl;
+		cout << "Press any key to close" << endl;
+	}
+	else {
+		cout << "Invalid password or login" << endl;
+	}
+	system("pause");
+	return 0;
+}
